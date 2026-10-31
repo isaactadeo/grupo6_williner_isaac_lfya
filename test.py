@@ -84,5 +84,30 @@ def sumar_lista_recursiva(numeros):
 
         self.assertLess(score, UMBRAL_DUPLICADO)
 
+   
+
 if __name__ == '__main__':
     unittest.main(verbosity=2)
+
+
+
+
+# Este era el test q esperabamosmos que de positivo y no dio
+#def test_positivo_lineas_reordenadas(self):
+#            codigo1 = """
+#    def configurar_usuario(nombre, edad):
+#        n = nombre
+#        e = edad
+#        return True
+#    """
+#            codigo2 = """
+#    def setup_user(nombre, edad):
+#        e = edad
+#        n = nombre
+#        return True
+#    """
+#            tokens1 = obtener_tokens_de_string(codigo1)
+#            tokens2 = obtener_tokens_de_string(codigo2)
+#            score = calcular_similitud_jaccard(tokens1, tokens2)
+#
+#            self.assertGreaterEqual(score, UMBRAL_DUPLICADO)
